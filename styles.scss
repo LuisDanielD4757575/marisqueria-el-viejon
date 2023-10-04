@@ -1,0 +1,22 @@
+$padd: 5px;
+$primary-color: rgb(100,200,350);
+
+.gradbg {
+    background-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), url('./beach-bg.png');
+    background-size:cover;
+    height: 400px - 2*$padd;
+
+    .row {
+        height: 350px;
+    }
+
+    img {
+        height: 300px;
+    }
+}
+
+.row p {
+    border: solid;
+    border-radius: 1px;
+    background-color: darken($primary-color, $amount: 10);
+}

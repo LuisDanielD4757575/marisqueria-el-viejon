@@ -1,14 +1,17 @@
 .gradbg {
-    background-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), url('./beach-bg.png');
-    background-size:cover;
-    height: 350px;
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./beach-bg.png");
+  background-size: cover;
+  height: 390px;
 }
-
 .gradbg .row {
-    height: 350px;
+  height: 350px;
 }
-
-
 .gradbg img {
-    height: 300px;
+  height: 300px;
 }
+
+.row p {
+  border: solid;
+  border-radius: 1px;
+  background-color: #31b6ff;
+}/*# sourceMappingURL=styles.css.map */
